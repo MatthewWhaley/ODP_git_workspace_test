@@ -1,0 +1,58 @@
+﻿#,File format,Frequency,Data,Metadata,Klaar,Vendor,speciesgroup,Coordination of data,Scope,Equipment main,Equipment sub,Phase 1 scope,ID of a dataset,ID for a file,dataset name,description,source name,source URL,author name,author email,author organization ,maintainer name,maintainer email,maintainer organization,publisher name ,publisher email ,publisher Organization ,citation,timespan dataset,Season,timestamp,Data Upload Frequency,# of data points in set,data format,revision number,revision date,Species Group,geographic region ,Location,license ,Data Size,HubOcean (OceanDataPlatform),EMODnet,ICES,Informatiehuis Marien,ESAS
+1,To be decided,,,,JoeCu + NieHe,third party,"bird, bat, harbour porpoise, benthos",Ecowende,API,AIS data - shipradar of human activity,marinetraffic.com,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,to be excluded,,,,NieHe,Movebank.org,bird,WE,API,data enrichment gpslog trackingdata,data enrichment gpslog trackingdata,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,To be decided,,,,AlrDr + NieHe,third party,"bird, bat",Ecowende,API,flights radar of human activity,Flight radar,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,To be decided,,,,NieHe,Informatiehuis Marien/ WMR,,WE,API,prey fish monitoring data,prey fish monitoring data,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,to be excluded,,,,NieHe,underwaternoise.ices.dk,bird,WE,API,underwater noise data,underwater noice data,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,more information needed,,,,JoeCu + AlrDr +  NieHe,RWS,,Ecowende,API,weather data from RWS,waves,Included,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,more information needed,,,,JoeCu,RWS,,Ecowende,API,weather data from RWS/KNMI,water temperature,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,more information needed,,,,AlrDr,KNMI,,Ecowende,API,weather data from RWS/KNMI?,as many parameters as possible,Included,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,more information needed,,,,JoeCu,RWS,,Ecowende,API,weather data from RWS/KNMI?,chlorophyl,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,CSV,1 Month ,Yes,Yes,NieHe,Ornitella,bird,WE,Bird,GPS loggers,+,Included,,,GPS data greater black-backed gull,GPS bird tracks,GPS_GBBG_20240527_20240804.csv,,Ornitela,,,Waardenburg Ecology,hkw@waardenburg.eco,Waardenburg Ecology,Waardenburg Ecology,hkw@waardenburg.eco,Waardenburg Ecology,,27/05/2024-04/08/2024,, 18/09/2024 15:46,monthly,351710,csv,1,18/09/2024,birds,"polygon(7.5 58.0, 7.6 59.0, 7.5 59.0, 7.6 58.0)",n/a,,"30,471 MB",?,?,?,?,?
+12,CSV,live,Yes,Yes,NieHe,RobinRadar,"bird, bat",WE,BUOY,Radar,"Radar on Buoy (FLORA) (when windpark is build, buoy radar goes to WTG.)",Excluded,UUID,,Radar on buoy,Robin radar bird tracks,RR_buoy_20240918,,RobinRadar,,,Waardenburg Ecology,hkw@waardenburg.eco,Waardenburg Ecology,hkw@waardenburg.eco,hkw@waardenburg.eco,Waardenburg Ecology,,,All, 18/09/2024 16:04,?,per file,csv,1,18/09/2024,birds,"polygon(7.5 58.0, 7.6 59.0, 7.5 59.0, 7.6 58.0)",7.5 58.0,,?,?,No,No,No,?
+37,,,,,JoeCu,WMR/ WaterProof,fish,External/WE,echosounder,multibeam,multibeam echosounder backscatter - sandwaves/ Sabellaria,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+38,,,Needs further discussion,,JoeCu,Fugro,Bath,WaterProof,,multibeam,multibeam echosounder bathymetry - sandwaves,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,netCDF,3 months,Yes (sample from other project),Yes,JoeCu,WaterProof,,WaterProof,PAM,PAM frames,Acoustic Recorder ,Included,UUID per file,,PAM-Ambient sound,,RTsys,,WaterProof,tbd,WaterProof,WaterProof,tbd,WaterProof,WaterProof,tbd,WaterProof,tbd,Per file,NA,per file,quarterly,per file,NetCDF,per file,per file,NA,Windfarm,per file,,tbd,Maybe,No,Yes,Maybe,No
+19,netCDF,3 months,Maybe (sample from other project),Maybe,JoeCu,WaterProof,,WaterProof,PAM,PAM frames,ADCP 30 min. - sandwaves,Included,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,,,JerKw,WaterProof,fish,WE,PAM,PAM frames,Echosounder - fish sonar - WBAT,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+21,netCDF,3 months,Maybe (sample from other project),Maybe,?Ecowende,WaterProof,harbour porpoise,WaterProof,PAM,PAM frames,FPOD,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,netCDF,3 months,Yes (sample from other project),Maybe,JoeCu,WaterProof,,WaterProof,PAM,PAM frames,MPP up to 7 parameters with 1 sonde ,Included,UUID per file,,PAM-MPP,,YSI,,WaterProof,tbd,WaterProof,WaterProof,tbd,WaterProof,WaterProof,tbd,WaterProof,tbd,per file,NA,per file,quarterly,per file,NetCDF,per file,per file,NA,Windfarm,per file,,tbd,Maybe,Yes,Maybe,Maybe,No
+23,,,,,JoeCu,WMR/ WaterProof,benthos,WMR/ WaterProof,PAM,PAM frames,Subsea transponder USBL,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,netCDF,3 months,Maybe (sample from other project),Maybe,JoeCu,WaterProof,,WaterProof,PAM,PAM maintenance vessel,MPP up to 7 parameters with 1 sonde ,Included,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,netCDF,3 months,No sample,No,JoeCu,WaterProof,fish,WaterProof,PAM VEMCO,PAM frames,Telemetry (acoustic recorder) - sandwaves ( sound/ ping recorder),Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,,,,,JoeCu,WMR/ WaterProof,benthos,WMR/ WaterProof,ROV,ROV,Subsea transponder USBL gps/ tilt/ tide/ height/ depth,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,,Maybe (sample from other project),,JoeCu,WE,benthos,WMR,ROV,ROV,Video/ still? - Sabellaria,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,,,Maybe (sample from other project),,JoeCu,WE,benthos,WMR,ROV,ROV,Video/ still? - sandwaves T-1 T12,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+32,,,,,JoeCu,WE,benthos,WMR,ROV,ROV,Video/ still? - sandwaves T1 T3 T5,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+39,Vector,,Needs further discussion,,JoeCu,Fugro,fish,WE,Sonar,side scan sonar,Hummingbird sonar (Sabellaria),Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,netCDF,3 months,No sample,,JoeCu,WaterProof,"fish, benthos",WaterProof,SOV,vertical profile,MPP up to 7 parameters with 1 sonde ,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+44,To be decided,,Yes (sample from other project),Yes,JoeCu,WE,fish,WE,Survey,Baited cams,camera's - sandwaves,Excluded,,,,,,,Waardenburg,,Waardenburg,Waardenburg,,Waardenburg,,,Waardenburg,,,,,,,,,,,,,,,Maybe,Maybe,Yes,Maybe,No
+47,,,,,JoeCu,WMR/ WaterProof,benthos,WMR/ WaterProof,Survey,Baited cams,Subsea transponder USBL,Excluded,,,,,,,,,,Ecowende,,Ecowende,,,,,,,,,,,,,,,,,,,,,,
+49,,,,,JoeCu,WMR/ WaterProof,benthos,WMR/ WaterProof,Survey,Bese elements,Subsea transponder USBL,Excluded,,,,,,,,,,Waardenburg,,Waardenburg,,,,,,,,,,,,,,,,,,,,,,
+51,To be decided,,,,JoeCu,WMR,benthos,WE,Survey,Boxcores,boxcores,Included,,,,,,,,,,Waardenburg,,Waardenburg,,,,,,,,,,,,,,,,,,,,,,
+52,,,,,JoeCu,WMR/ WaterProof,benthos,WMR/ WaterProof,Survey,Boxcores,Subsea transponder USBL,Excluded,,,,,,,,,,Waardenburg,,Waardenburg,,,,,,,,,,,,,,,,,,,,,,
+53,,,Yes,Yes,NieHe,HiDef,bird,Ecowende,Survey,Drone,camera's on drones (schedule to be defined) DAS,Included,,,,,,,Ecowende,,Ecowende,Ecowende,,Ecowende,,,,,,Okotber - March,,,,,,,,,,,,Maybe,No,No,No,Yes
+56,,,No sample,No,JoeCu,WE,"benthos, fish",WE,Survey,eDNA,eDNA sample kit - sandwaves T-1 T12,Extended Scope,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+57,,,No sample,No,JoeCu,WE,"benthos, fish",WE,Survey,eDNA,eDNA sample kit - sandwaves T1 T3 T5,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,,,Yes,Yes,NieHe,HiDef,bird,WE,Survey,Plane,camera's on plane DAS,Included,,,,,,,Waardenburg,,Waardenburg,Waardenburg,,Waardenburg,,,Waardenburg,,,all,,,,,,,,,,,,Maybe,No,No,No,Yes
+67,To be decided,,,,JoeCu,WE,"benthos, fish",WE,Survey,Triple D dredge,Triple D dredge T-1 T12,Extended Scope,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+68,,,Yes (sample from other project),Yes,NieHe,WE,bird,WE,Survey,Visual counts from ship,Tablet,Extended Scope,UUID,,,Visual counts birds,visual_ship_survey 20240918,,Waardenburg,hkw@waardenburg.eco,Waardenburg,Waardenburg,hkw@waardenburg.eco,Waardenburg,Waardenburg,hkw@waardenburg.eco,Waardenburg,,,Okotber - March, 18/09/2024 16:04,,,csv,,,birds,"polygon(7.5 58.0, 7.6 59.0, 7.5 59.0, 7.6 58.0)",7.5 58.0,,10MB,Maybe,No,No,No,Yes
+69,,,Yes (sample from other project),Yes,NieHe,WE,bird,WE,Survey,Visual counts from WTG,Tablet,Excluded,UUID,,,Visual counts birds,visual_WTG_survey 20240918,,Waardenburg,hkw@waardenburg.eco,Waardenburg,Waardenburg,hkw@waardenburg.eco,Waardenburg,Waardenburg,hkw@waardenburg.eco,Waardenburg,,,all, 18/09/2024 16:04,,,csv,,,birds,"polygon(7.5 58.0, 7.6 59.0, 7.5 59.0, 7.6 58.0)",7.5 58.0,,10MB,Maybe,No,No,No,Yes
+73,Excel ,,Yes (sample from other project),Yes,AlrDr,Tennet/ Ecowende,bat,WE,Tennet platform,acoustic data,batdetector on TenneT platform,Extended Scope,,,,,,,,,,,,,,,,,,all,,,,,,,,,,,,Maybe,No,No,Maybe,No
+74,API,n/a,Sample,Exploration,AlrDr + NieHe,WaterProof,"bird, bat",WaterProof,Tennet platform,Motus,antennas,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+75,csv,,Yes (sample from other project),No,NieHe,RobinRadar,"bird, bat",RWS,Tennet platform,Radar,Radar on Tennet platform (RWS),Extended Scope,,,,,,,,,,,,,,,,,,all,,,,,,,,,,,,No,No,No,No,No
+76,,,,,AlrDr,Tennet/Ecowende,"bird, bat",RWS,Tennet platform,weatherstation on TenneT platform,"precipitation, air temperature",Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+83,,,,,JoeCu,WMR/ WaterProof,benthos,WMR/ WaterProof,VEMCO,Subsea transponder USBL,Subsea transponder USBL,Excluded,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+101,csv,live,?,Yes,?,Rijkswaterstaat,?,Rijkswaterstaat MIVSP,?,Various oceanic sensors,Various oceanic sensors,,?,?,Oceanic data HKWA,Wave data from HKW alpha platform,LMW_HKWA_XXXX_hhmm.hy3m,lmw-ftp.lmw.rws.nl,Rijkswaterstaat,MIVSP-Engagement@rws.nl,Rijkswaterstaat MIVSP,Martijn van Dijk,martijn.van.dijk@rws.nl,Rijkswaterstaat MIVSP,Rijkswaterstaat MIVSP,-,Rijkswaterstaat MIVSP,?,?,?,per file,"live, every 10m",per file,csv (.hy3m),per file,per file,?,HKWA platform,HKWA platform,"RWS allows Ecowende to share the data covered in this agreement with Ecowende affiliates   (other than third-parties), and no additional request for consent is required. 
+To share the data with other third parties, Ecowende must first seek permission for such delivery from the engagement manager . ",500KB/day,"To check, see license","To check, see license","To check, see license","To check, see license","To check, see license"
+102,csv,live,?,Yes,?,Rijkswaterstaat,?,Rijkswaterstaat MIVSP,?,Various weather sensors,Various weather sensors,,?,?,Weather data HKWA,Weather data from HKW alpha platform both in avg per 10 min or live/raw every approx 15 sec,HKWA_Wind10_1288@Yyyyy_Mmm_Dmm,lmw-ftp.lmw.rws.nl,Rijkswaterstaat,MIVSP-Engagement@rws.nl,Rijkswaterstaat MIVSP,Martijn van Dijk,martijn.van.dijk@rws.nl,Rijkswaterstaat MIVSP,Rijkswaterstaat MIVSP,-,Rijkswaterstaat MIVSP,?,?,?,per file,"live, every 15s or 10m average",per file,"csv, zph",per file,per file,?,HKWA platform,HKWA platform,"RWS allows Ecowende to share the data covered in this agreement with Ecowende affiliates   (other than third-parties), and no additional request for consent is required. 
+To share the data with other third parties, Ecowende must first seek permission for such delivery from the engagement manager . ","average: 1MB/day
+raw: 12MB/day","To check, see license","To check, see license","To check, see license","To check, see license","To check, see license"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
